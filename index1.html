@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <h1>Encriptador de texto</h1>
+    <form id="cipherForm">
+        <label for="inputText">Ingrese el texto:</label><br>
+        <textarea id="inputText" name="inputText" rows="4" cols="50" required></textarea><br>
+        <label for="exputText">Texto desencriptado:</label><br><textarea id="exputText" name="exputText" rows="4" cols="50" required></textarea><br>
+        <input type="submit" id="Encriptar" name="operation" value="Encriptar" checked>
+        <label for="Encriptar">Encriptar</label><br>
+        <input type="submit" id="Desencriptar" 
+        name="operation" value="Desencriptar">
+        <label for="Desencriptar">Desencriptar</label><br>
+        
+    </form>
+    <div id="result" style="margin-top: 1em;"></div>
+    <script src="Script.js"></script>
+</body>

@@ -1,0 +1,37 @@
+/* Colores */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.head {
+  background-color: #23272A;
+  border-bottom: 1px solid #DCDCDC;
+  height: 50px;
+}
+
+.form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text-area {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #DCDCDC;
+  padding: 10px;
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+  background-color: #757575;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.message {
+  width: 100%;
+  margin-top: 10px;
+}
